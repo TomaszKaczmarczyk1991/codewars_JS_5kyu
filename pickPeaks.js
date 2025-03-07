@@ -3,7 +3,7 @@ function pickPeaks(arr){
     const maxPos = [];
 
     for(let i = 1; i < arr.length-1; i++) {
-      if((arr[i] > arr[i-1]) {
+      if((arr[i] > arr[i-1])) {
         let j = i;
         while(arr[j] === arr[j+1])
           j++;
