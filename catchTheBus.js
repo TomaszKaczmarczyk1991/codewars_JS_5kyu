@@ -22,7 +22,7 @@ function catchTheBus(busTimes, boyTimes) {
 
       const results = []; // 1 - spoznienie, 0 - brak spoznienia
 
-      for(let i = 0; i < 100000; i++) {
+      for(let i = 0; i < 100000000; i++) {
         let busTime = busStart + Math.random() * (busEnd - busStart);
         let boyTime = boyStart + Math.random() * (boyEnd - boyStart);
         (boyTime > busTime) ? results.push(1) : results.push(0);
