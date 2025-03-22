@@ -16,3 +16,5 @@ function pickPeaks(arr){
     }
     return {pos: maxPos, peaks: maxArr}
 }
+
+// test commit from Arch Linux...
